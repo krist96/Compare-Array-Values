@@ -15,7 +15,7 @@ class My(object):
                     print(i)
                 rek(i+1)  #Rekurencyjnie wywołujemy funkcję z wartością podniesioną o jeden
         ##Wywołujemy powyższą funkcję
-        rek(i=1)
+        rek(1)
 
 my = My([2,3,7,4,9], 10)
 my.task2()
